@@ -12,6 +12,12 @@ This project demonstrates the implementation of various machine learning and dee
 -   **M**: Pathological Myopia
 -   **O**: Other abnormalities
 
+The other dataset is more balanced and contains 4 classes 
+- cataract
+- diabetic_retinopathy
+- glaucoma
+- normal
+
 ## Features
 
 -   **Dataset Analysis and Preprocessing**:
@@ -28,12 +34,8 @@ This project demonstrates the implementation of various machine learning and dee
         -   XGBoost
         -   AdaBoost
     -   Deep learning models:
-        -   Custom Convolutional Neural Networks (CNNs)
-        -   Deeper CNN architectures
-        -   ResNet18 and ResNet50 (pretrained)
+        -   ResNet50 
         -   EfficientNet
-        -   Vision Transformers (ViT)
-        -   Hybrid CNN-RNN architecture
 -   **Evaluation Metrics**:
     -   Accuracy
     -   Precision, Recall, F1-score (micro/macro)
@@ -41,28 +43,12 @@ This project demonstrates the implementation of various machine learning and dee
 
 ----------
 
-## Dataset Structure
 
-The dataset includes images and annotations in the following structure:
-
-
-```bash
-data/
-  ├── ODIR-5K/
-	  ├── ODIR-5K/
-	      ├── Training Images/
-	      ├── Testing Images/
-├── full_df.csv
-```
-
--   **`full_df.csv`**: Metadata file with image paths and disease labels.
-
-----------
-
-## Dataset Used
+## Datasets Used
 
 https://www.kaggle.com/datasets/andrewmvd/ocular-disease-recognition-odir5k
 
+https://www.kaggle.com/datasets/gunavenkatdoddi/eye-diseases-classification/data
 
 ----------
 
@@ -84,7 +70,7 @@ https://www.kaggle.com/datasets/andrewmvd/ocular-disease-recognition-odir5k
 ### Training Deep Learning Models
 
 
-```test1.ipynb contains the deep learning models training``` 
+```main1.ipynb contains the deep learning models training``` 
     
 
 
